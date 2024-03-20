@@ -1,30 +1,6 @@
 /*
   By: Sr.White Dragon
   Projeto para fins educacionais, não garantindo o pleno funcional para que o(a) aluno(a) seja estimulado a estudar o codigo ao invés de apenas copia-lo
-  Logica:
-      Importacao da biblioteca LiquidCrystal.h
-      definicao dos pinos do display (rs, en, d4, d5, d6, d7)
-
-      criacao do objeto lcd()
-
-      setup(){
-          inicializacao do display com a definicao de 16 colunas x 2 linhas
-          printagem da mensagem solicitando os numeros
-      }
-      iniciando o codigo
-      loop(){
-          leitura dos 3 digitos
-          se cada um deles for igual aos digitos 3, 6 e 9
-              imprimir parabens
-          senao
-              pedir para digitar novamente
-
-          esperar 2000 milesimos de segundos (2 segundos)
-          solicitar mais 3 digitos
-      }
-      lerdigito(){
-          funcao para ler digito do teclado
-      }
 */
 // Imoportando biblioteca responsável pela manipulação do Cristal Liquido (LCD)
 #include <LiquidCrystal.h>
@@ -77,3 +53,29 @@ int readDigit() {
     }
   }
 }
+/*
+Logica:
+      Importacao da biblioteca LiquidCrystal.h
+      definicao dos pinos do display (rs, en, d4, d5, d6, d7)
+
+      criacao do objeto lcd()
+
+      setup(){
+          inicializacao do display com a definicao de 16 colunas x 2 linhas
+          printagem da mensagem solicitando os numeros
+      }
+      iniciando o codigo
+      loop(){
+          leitura dos 3 digitos
+          se cada um deles for igual aos digitos 3, 6 e 9
+              imprimir parabens
+          senao
+              pedir para digitar novamente
+
+          esperar 2000 milesimos de segundos (2 segundos)
+          solicitar mais 3 digitos
+      }
+      lerdigito(){
+          funcao para ler digito do teclado
+      }
+*/
